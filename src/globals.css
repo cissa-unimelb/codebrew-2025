@@ -9,6 +9,7 @@
 
 @theme {
   --font-abduction: 'Abduction', sans-serif;
+  --font-code: 'Courier New', monospace;
 
   --color-blue: #0000FF;
   --color-red: #FF0000;
