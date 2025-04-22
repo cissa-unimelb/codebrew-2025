@@ -3,7 +3,7 @@ import CodebrewTitle from "@/assets/codebrew-title.png"
 export default function LandingPanel() {
     return (
         <div className="h-screen flex flex-col sm:p-10 p-4 bg-offblack bg-contain bg-no-repeat justify-center items-end gap-10"
-        style={{ backgroundImage: `url("/assets/flask.png")` }}>
+        style={{ backgroundImage: `url("assets/flask.png")` }}>
 
             <img className="h-16 sm:h-30" src={CodebrewTitle} alt="Codebrew Title"></img>
 
