@@ -42,7 +42,7 @@ export default function ThemesPanel() {
         <div className="text-center space-y-2">
             <h3 className="font-code text-white italic">CODEBREW THEME 2025:</h3>
             <h1 className="font-abduction text-3xl sm:text-4xl text-green">
-                "REINVENTING THE WHEEL"
+                "REVISITING THE PAST"
             </h1>
         </div>
         <div className="space-y-2">
