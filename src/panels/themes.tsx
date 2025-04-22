@@ -18,7 +18,7 @@ export default function ThemesPanel() {
       label: string;
     }) => (
       <div className="flex flex-col items-center">
-        <span className="font-abduction text-green text-4xl">
+        <span className="font-abduction text-white text-4xl">
           {String(value).padStart(2, '0')}
         </span>
         <span className="mt-1 font-code text-base sm:text-lg uppercase text-white">
@@ -38,11 +38,17 @@ export default function ThemesPanel() {
   };
 
   return (
-    <div className="w-full bg-offblack py-12 px-4">
-      <h1 className="mb-10 text-center font-abduction text-3xl sm:text-4xl text-white">
-        2025 TRACKS
-      </h1>
-      <Countdown date={TARGET} renderer={renderer} />
+    <div className="flex flex-col gap-8 items-center justify-center bg-offblack py-12 px-4">
+        <div className="text-center space-y-2">
+            <h3 className="font-code text-white italic">CODEBREW THEME 2025:</h3>
+            <h1 className="font-abduction text-3xl sm:text-4xl text-green">
+                "REINVENTING THE WHEEL"
+            </h1>
+        </div>
+        <div className="space-y-2">
+            <h3 className="font-code text-white italic text-center">TRACKS 2025:</h3>
+            <Countdown date={TARGET} renderer={renderer} />
+      </div>
     </div>
   );
 }
