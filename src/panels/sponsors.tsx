@@ -1,5 +1,3 @@
-import SponsorTitle from "@/assets/sponsors-title.png"
-
 import AirwallexIcon from "@/assets/sponsors/airwallex.png"
 import IMCIcon from "@/assets/sponsors/imc.png"
 import JaneStreetIcon from "@/assets/sponsors/jane-street.png"
@@ -43,8 +41,8 @@ const tiers = [
   
   export default function SponsorsPanel() {
     return (
-      <div className="px-6 py-24 bg-offblack text-white">
-        <img className="block mx-auto mb-10 h-8 sm:h-12" src={SponsorTitle} alt="Sponsors"></img>
+      <div className="p-6 bg-offblack text-white">
+        <h2 className="font-abduction text-5xl text-center mb-10">Sponsors</h2>
 
         {tiers.map(({ name, logos }) => (
           <div key={name} className="flex flex-col sm:flex-row items-center mb-10 justify-center sm:space-x-20">
