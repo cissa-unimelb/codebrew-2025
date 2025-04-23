@@ -5,11 +5,13 @@ import SunTime from "@/assets/images/sun-timeline.svg";
 
 import ThursTimeMobile from "@/assets/images/thursday-timeline-mobile.svg";
 import FriTimeMobile from "@/assets/images/friday-timeline-mobile.svg";
+import SatTimeMobile from "@/assets/images/sat-timeline-mobile.svg";
+import SunTimeMobile from "@/assets/images/sun-timeline-mobile.svg";
+
 import LeftButton from "@/assets/icons/left-button.svg?react";
 import RightButton from "@/assets/icons/right-button.svg?react";
 
 import { useState } from "react";
-
 
 // DESKTOP
 const dayTimelineDesktop = [ThursTime, FriTime, SatTime, SunTime]
@@ -53,7 +55,7 @@ function TimelinePanelDesktop() {
 }
 
 // Mobile
-const dayTimelineMobile = [ThursTimeMobile, FriTimeMobile, ThursTimeMobile, FriTimeMobile]
+const dayTimelineMobile = [ThursTimeMobile, FriTimeMobile, SatTimeMobile, SunTimeMobile]
 const dayTextMobile = ["THURS 24TH", "FRI 25TH", "SAT 26TH", "SUN 27TH"]
 
 function NavButton({navFunc, buttonLeft, disabled}: {navFunc: any, buttonLeft: boolean, disabled: boolean}){
