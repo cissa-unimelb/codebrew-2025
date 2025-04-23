@@ -1,11 +1,11 @@
 export default function NavBar() {
     const links = [
       { label: 'About', id: 'about' },
-      { label: 'Workshops', id: 'workshops' },
       { label: 'Themes', id: 'themes' },
+      { label: 'Timeline', id: 'timeline' },
+      { label: 'Workshops', id: 'workshops' },
       { label: 'Sponsors', id: 'sponsors' },
       { label: 'FAQ', id: 'faq' },
-
     ];
   
     return (
