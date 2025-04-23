@@ -18,6 +18,7 @@ export default function App() {
             <section id="workshops" className="scroll-mt-14"><WorkshopsPanel/></section>
             <section id="themes" className="scroll-mt-14"><ThemesPanel/></section>
             <section id="sponsors" className="scroll-mt-14"><SponsorsPanel/></section>
+            <section id="faq" className="scroll-mt-14"><FAQPanel/></section>
         </div>
     )
 }
