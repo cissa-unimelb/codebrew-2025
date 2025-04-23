@@ -41,7 +41,7 @@ const tiers = [
   
   export default function SponsorsPanel() {
     return (
-      <div className="p-6 bg-offblack text-white">
+      <div className="pt-24 py-10 px-6 bg-offblack text-white">
         <h2 className="font-abduction text-5xl text-center mb-10">Sponsors</h2>
 
         {tiers.map(({ name, logos }) => (

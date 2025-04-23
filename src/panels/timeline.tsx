@@ -33,7 +33,7 @@ function SwitchButton({name, id, index, setIndex}: {name: string, id: number, in
 function TimelinePanelDesktop() {
     const [index, setIndex] = useState(0);
     return (
-        <div className="flex py-2 flex-col w-screen items-center justify-center bg-offblack font-abduction text-green">
+        <div className="flex py-20 flex-col w-screen items-center justify-center bg-offblack font-abduction text-green">
             <h1 className="text-2xl sm:text-4xl">Timeline</h1>
             <div className="flex w-screen items-center justify-center">
                 <div className="w-[80%] border-2 p-2 m-2">
@@ -80,7 +80,7 @@ function TimelinePanelMobile() {
     const next = () => !nextDisabled && setIndex(i => i + 1);
   
     return (
-        <div className="flex py-2 flex-col w-screen items-center justify-center bg-offblack font-abduction">
+        <div className="flex py-20 flex-col w-screen items-center justify-center bg-offblack font-abduction">
             <div>
                 <h1 className="p-2 text-2xl sm:text-4xl"> Timeline Panel </h1>
             </div>
