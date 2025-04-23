@@ -15,10 +15,12 @@ export default function App() {
             <NavBar />
             <LandingPanel/>
             <section id="about" className="scroll-mt-14"><AboutPanel/></section>
+            <section id="timeline" className="scroll-mt-14"><TimelinePanel/></section>
             <section id="workshops" className="scroll-mt-14"><WorkshopsPanel/></section>
             <section id="themes" className="scroll-mt-14"><ThemesPanel/></section>
             <section id="sponsors" className="scroll-mt-14"><SponsorsPanel/></section>
             <section id="faq" className="scroll-mt-14"><FAQPanel/></section>
+
         </div>
     )
 }
