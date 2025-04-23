@@ -12,6 +12,7 @@ export default function App() {
         <div>
             <LandingPanel/>
             <AboutPanel/>
+            <WorkshopsPanel/>
             <ThemesPanel/>
             <SponsorsPanel/>
         </div>
