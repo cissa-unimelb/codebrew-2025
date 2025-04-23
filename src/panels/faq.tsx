@@ -66,10 +66,7 @@ export default function FAQPanel() {
                 
                 <h1 className="font-abduction text-5xl text-green mb-8">FAQ</h1>
 
-                <Accordion.Root type="single"
-                    defaultValue="item-1"
-                    collapsible
-                >
+                <Accordion.Root type="single" collapsible>
                     {faqs.map((f, idx) => (
                     <Accordion.Item
                         key={idx}
