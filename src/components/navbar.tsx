@@ -4,6 +4,8 @@ export default function NavBar() {
       { label: 'Workshops', id: 'workshops' },
       { label: 'Themes', id: 'themes' },
       { label: 'Sponsors', id: 'sponsors' },
+      { label: 'FAQ', id: 'faq' },
+
     ];
   
     return (
