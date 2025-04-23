@@ -1,9 +1,9 @@
 export default function NavBar() {
     const links = [
-      { label: 'About',      id: 'about'   },
+      { label: 'About', id: 'about' },
       { label: 'Workshops', id: 'workshops' },
-      { label: 'Themes',    id: 'themes'    },
-      { label: 'Sponsors',  id: 'sponsors'  },
+      { label: 'Themes', id: 'themes' },
+      { label: 'Sponsors', id: 'sponsors' },
     ];
   
     return (
