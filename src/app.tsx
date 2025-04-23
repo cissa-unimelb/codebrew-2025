@@ -1,3 +1,5 @@
+import NavBar from "./components/navbar"
+
 import LandingPanel from "./panels/landing"
 import AboutPanel from "./panels/about"
 import SponsorsPanel from "./panels/sponsors"
@@ -10,11 +12,12 @@ import FAQPanel from "./panels/faq"
 export default function App() {
     return (
         <div>
+            <NavBar />
             <LandingPanel/>
-            <AboutPanel/>
-            <WorkshopsPanel/>
-            <ThemesPanel/>
-            <SponsorsPanel/>
+            <section id="about" className="scroll-mt-14"><AboutPanel/></section>
+            <section id="workshops" className="scroll-mt-14"><WorkshopsPanel/></section>
+            <section id="themes" className="scroll-mt-14"><ThemesPanel/></section>
+            <section id="sponsors" className="scroll-mt-14"><SponsorsPanel/></section>
         </div>
     )
 }
