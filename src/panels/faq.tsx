@@ -79,7 +79,7 @@ export default function FAQPanel() {
                                 <FaChevronRight className="sm:h-4 sm:w-4 w-3 h-3 transition-transform duration-300 group-data-[state=open]:rotate-90"/>
                             </Accordion.Trigger>
                         </Accordion.Header>
-                        <Accordion.Content className="px-6 pb-6 pt-2 text-white text-sm bg-black font-code">
+                        <Accordion.Content className="px-6 pb-6 pt-2 text-white text-sm font-code">
                         {f.answer}
                         </Accordion.Content>
                     </Accordion.Item>
