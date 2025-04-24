@@ -12,13 +12,12 @@ const themes = [
   {
     key: 'wheel',
     name: 'Reinventing the Wheel',
-    bgColour: "bg-red",
+    bgColour: "bg-[#BF002D]",
     textColour: "text-red",
     textClass: "text-white",
     text: "For the first track in this year’s series, we want to emphasize a beginner-friendly, user-focused design. As the name suggests, your goal is not to come up with a new, ground-breaking application/website that will blow people’s mind. Rather, the objective is to recreate ideas that have already been tried and tested throughout the years. Think to the apps and websites you yourself use everyday: instead of on creativity, your submission will be assessed based on your ability to understand why those applications are so successful and whether or not you’re able to recreate that desirability. We recommend this track for beginner coders.",
     card: RedTrack,
     background: "assets/red-flask.png",
-    
   },
   {
     key: 'ground',
@@ -81,7 +80,7 @@ export default function ThemesPanel() {
             <img src={WindowBar}></img>
             <div
               className={`w-full rounded-b-md font-code text-sm p-4 text-white ${current.bgColour}`}>
-              <p className={`p-4 ${current.textClass}`}>{current.text}</p>
+              <p className={`p-4 ${current.textClass} font-semibold`}>{current.text}</p>
               <button onClick={close} className="bg-black rounded-2xl font-code text-white px-6 mt-2">Back</button>
             </div>
           </div>
