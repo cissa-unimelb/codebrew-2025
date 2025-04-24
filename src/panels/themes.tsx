@@ -75,9 +75,9 @@ export default function ThemesPanel() {
       )}
 
       {open && current && (
-        <div className="max-w-2xl w-full flex flex-col items-center gap-6">
-          <div className="relative w-full">
-            <img src={WindowBar}></img>
+        <div className="max-w-2xl flex flex-col items-center gap-6">
+          <div>
+            <img src={WindowBar} className="h-[10px] sm:h-[15px] -mb-1"></img>
             <div
               className={`w-full rounded-b-md font-code text-sm p-4 text-white ${current.bgColour}`}>
               <p className={`p-4 ${current.textClass} font-semibold`}>{current.text}</p>
