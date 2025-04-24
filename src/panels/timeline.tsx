@@ -82,7 +82,7 @@ function TimelinePanelMobile() {
     const next = () => !nextDisabled && setIndex(i => i + 1);
   
     return (
-        <div className="flex py-20 flex-col w-screen items-center justify-center bg-offblack font-abduction">
+        <div className="flex py-10 flex-col w-screen items-center justify-center bg-offblack font-abduction text-green">
             <div>
                 <h1 className="p-2 text-2xl sm:text-4xl"> Timeline Panel </h1>
             </div>
