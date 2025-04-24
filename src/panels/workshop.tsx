@@ -60,7 +60,7 @@ export default function WorkshopCarousel() {
   return (
     <div
       className="w-full bg-offblack bg-center py-10"
-      style={{ backgroundImage: `url(${background})` }}
+      style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
       <h2 className={`font-abduction text-xl sm:text-4xl text-center ${text}`}>C:\Codebrew_Workshops_Series\</h2>
   
